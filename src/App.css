@@ -1,0 +1,49 @@
+body{
+    background-color: #17181f;
+    color: #aaa;
+}
+*{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    max-width: 300px;
+    margin: 0 auto;
+}
+form{
+    border: 3px solid #30313d;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+form input[type="text"]{
+    background: none;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    padding: 0 8px;
+    width: 100%;
+}
+form button{
+    background-color: #61dafb;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+div.task{
+    background-color: #30313d;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+}
+div.checkbox{
+    display: flex;
+}
+div.checkbox svg{
+    height: 20px;
+    margin-right: 4px;
+
+}
